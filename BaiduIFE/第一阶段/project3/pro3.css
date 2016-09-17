@@ -1,0 +1,32 @@
+div{
+  padding: 20px;
+  border:1px solid;
+}
+img{
+  width: 80px;
+  height:80px;
+  border:1px solid;
+}
+#main{
+  overflow: auto;
+}
+#team-name{
+  float: left;
+  width: 200px;
+}
+#team-name p{
+  float: right;
+}
+#message{
+  margin-left:260px ;
+  margin-right:180px;
+}
+#personal-logo{
+  float: right;
+  width: 120px;
+
+}
+
+#personal-logo img{
+  padding:20px;
+}

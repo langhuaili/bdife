@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript">
+        
+window.URL = window.URL || window.webkitURL; 
+navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || 
+navigator.mozGetUserMedia || navigator.msGetUserMedia; 
+var video = document.getElementById('video'); 
+if (navigator.getUserMedia) { 
+navigator.getUserMedia({audio: true, video: true}, function(stream) { 
+video.src = window.URL.createObjectURL(stream); 
+}, onFailSoHard); 
+} 
+else { 
+alert('您的浏览器不支持getUserMedia方法'); 
+} 
+    </script>
+</head>
+<body>
+
+<device type="media" onchange="update(this.data)"></device> 
+<video autoplay></video> 
+<script> 
+function update(stream) { 
+document.querySelector('video').src = stream.url; 
+} 
+</script> 
+<!-- <audio autoplay="autoplay">
+<source src="http://tts.baidu.com/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=2&amp;text=%E6%B5%8B%E8%AF%95%E7%99%BE%E5%BA%A6%E6%96%87%E5%AD%97%E8%BD%AC%E8%AF%AD%E9%9F%B3%E6%8E%A5%E5%8F%A3%20-%20%E5%8D%A1%E5%8D%A1%E6%B5%8B%E9%80%9F%E7%BD%91%20www.webkaka.com" type="audio/mpeg">
+<embed height="0" width="0" src="http://tts.baidu.com/text2audio?lan=zh&amp;ie=UTF-8&amp;spd=2&amp;text=%E6%B5%8B%E8%AF%95%E7%99%BE%E5%BA%A6%E6%96%87%E5%AD%97%E8%BD%AC%E8%AF%AD%E9%9F%B3%E6%8E%A5%E5%8F%A3%20-%20%E5%8D%A1%E5%8D%A1%E6%B5%8B%E9%80%9F%E7%BD%91%20www.webkaka.com">
+</audio> -->
+</body>
+</html>

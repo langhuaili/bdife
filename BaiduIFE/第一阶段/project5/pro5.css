@@ -1,0 +1,121 @@
+body{
+    background-color: grey;
+}
+li{
+    list-style: none;
+}
+
+article{
+    width:100%;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px;
+    background-color: #fff;
+}
+.article{
+    margin-right:300px;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+}
+aside{
+
+
+    margin-top: 21px;
+    float: right;
+    padding-top: 20px;
+    padding-left: 15px;
+    width:300px;
+    height: 420px;
+    background-color: #fff;
+
+}
+footer{
+    clear: both;
+    background-color: #222;
+    height: 60px;
+    font-size: 25px;
+    color: #fff;
+    padding-top: 15px;
+    text-align: center;
+
+}
+form{
+    margin: 0 auto;
+    width: 800px;
+
+}
+textarea{
+    width: 25%;
+    height: 60px;
+}
+#tupian {
+
+    background-color: #fff;
+    overflow: auto;
+
+}
+#tupian div div{
+    text-align: center;
+    float: left;
+    padding:15px;
+    border:1px solid;
+    width: 15%;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    background-color: #fff;
+}
+#tupian div img{
+    height:80%;
+    width:80%;
+}
+
+#last{
+    clear:both;
+}
+#ensure-submit{
+    margin: 0 auto;
+    background-color: blue;
+    width: 300px;
+    height: 60px;
+
+}
+#table-head{
+    background-color: grey;
+}
+#table-end{
+    background-color: #aaa;
+}
+.header{
+    background-color: #222;
+    min-width: 640px;
+    height: 80px;
+    margin: 0 auto;
+    width: 100%;
+}
+#nav-guidance{
+    height: 80px;
+}
+.header li{
+    height: 79px;
+    float:right;
+    margin-right: 20px;
+    list-style: none;
+    line-height: 50px;
+     font-size: 20px;
+}
+ #nav-guidance ul{
+   height: 100%;
+ }
+
+ #nav-guidance a{  color: #fff;
+    text-decoration: none;
+}
+
+.header div{
+    float: left;
+}

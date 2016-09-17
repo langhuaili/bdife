@@ -1,0 +1,84 @@
+body{
+
+    background-color: grey;
+}
+
+article{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin: 20px auto;
+    border: 1px;
+    background-color: #fff;
+}
+main{
+    width: 99%;
+    margin: 10px auto;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+}
+aside{
+    background-color: #fff;
+}
+footer{
+    background-color: #222;
+    height: 60px;
+    font-size: 25px;
+    color: #fff;
+    padding-top: 15px;
+    text-align: center;
+
+}
+form{
+    margin: 0 auto;
+    width: 800px;
+
+}
+textarea{
+    width: 600px;
+    height: 60px;
+}
+
+#ensure-submit{
+    background-color: blue;
+    width: 800px;
+    height: 60px;
+
+}
+#table-head{
+    background-color: grey;
+}
+#table-end{
+    background-color: #aaa;
+}
+.header{
+    background-color: #222;
+    height: 80px;
+    margin: 0 auto;
+}
+#nav-guidance{
+    height: 80px;
+}
+#nav-guidance li{
+    height: 79px;
+    float:left;
+    margin-right: 20px;
+    list-style: none;
+    line-height: 50px;
+     font-size: 20px;
+}
+ #nav-guidance ul{
+   height: 100%;
+ }
+
+ #nav-guidance a{  color: #fff;
+    text-decoration: none;
+}
+#logo{
+   width: 50%;
+}
+.header div{
+    float: left;
+}

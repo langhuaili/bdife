@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dom编程艺术</title>
+    <script type="text/javascript">
+    window.onload=bindAction;
+    function change(){
+        var img=document.getElementsByTagName('img');
+       var src= img[0].setAttribute("src","2.jpg");
+       alert(img[0].getAttribute('border'));
+    }
+
+    function bindAction(){
+        var btn=document.getElementsByTagName('input');
+        console.log(btn[0]);
+        btn[0].onclick=change; 
+           }
+ 
+    </script>
+    
+</head>
+<body>
+<img src="1.jpg" height="100" width="100" border="1px solid"/>
+<input type="button" name="so">
+
+   
+</body>
+</html>
